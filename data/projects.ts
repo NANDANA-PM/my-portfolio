@@ -44,6 +44,16 @@ export const projects = [
     "SLA tracking & business analytics"
   ],
 
+  overview: "OMS is a comprehensive enterprise application designed to streamline the entire order lifecycle from creation to dispatch. Built with Flutter for cross-platform performance, it provides role-based access, real-time analytics, and seamless integration with thermal printers for on-the-go receipt generation.",
+  role: "Lead Mobile Developer",
+  responsibilities: [
+    "Architected the complete mobile application using Flutter and Riverpod.",
+    "Integrated secure token-based authentication and role-based access control.",
+    "Implemented real-time state management and optimized app performance.",
+    "Developed seamless integration with ESC/POS network thermal printers.",
+    "Built dynamic sales and analytics dashboards using FL Chart."
+  ],
+
   github: "",
   demo: ""
 },
@@ -93,6 +103,16 @@ export const projects = [
     "Responsive cross-platform UI",
     "REST API integration",
     "Secure token-based authentication"
+  ],
+
+  overview: "BT360 is a robust, enterprise-grade ERP mobile application tailored for comprehensive business management. It unifies inventory, sales, financial tracking, HR, and order management into a single, cohesive platform with real-time data synchronization capabilities.",
+  role: "Full-Stack Mobile Developer",
+  responsibilities: [
+    "Developed the complete mobile frontend using Flutter and Dart.",
+    "Implemented secure, role-based authentication and navigation using GoRouter.",
+    "Integrated REST APIs for real-time data synchronization across all modules.",
+    "Engineered robust offline caching and secure local storage mechanisms.",
+    "Designed and implemented complex business logic for financial and inventory tracking."
   ],
 
   github: "",
@@ -146,6 +166,16 @@ export const projects = [
     "REST API integration"
   ],
 
+  overview: "Crew is an innovative cross-platform event staffing and management platform that bridges the gap between event organizers and staff. It offers end-to-end features including shift scheduling, location-based QR attendance, integrated payments, and real-time event monitoring.",
+  role: "Mobile Application Developer",
+  responsibilities: [
+    "Built dual-interface mobile applications (Organizers & Staff) within a single codebase.",
+    "Integrated Google Maps for location selection and Razorpay for secure payments.",
+    "Implemented QR code-based attendance tracking for shifts.",
+    "Developed complex state management solutions using Riverpod.",
+    "Created a responsive, dynamic UI utilizing Flutter ScreenUtil for consistency across devices."
+  ],
+
   github: "",
   demo: ""
 },
@@ -196,6 +226,16 @@ export const projects = [
     "Responsive cross-platform UI",
     "REST API integration",
     "Secure local storage"
+  ],
+
+  overview: "Lawgik is a comprehensive legal practice management application designed specifically for modern law firms. It acts as a centralized hub for managing cases, client CRM, invoicing, scheduling, and secure document handling, significantly improving firm efficiency.",
+  role: "Mobile Solutions Architect",
+  responsibilities: [
+    "Architected the application following Clean Architecture principles.",
+    "Implemented sophisticated network request handling and interceptors using Dio.",
+    "Integrated Firebase for real-time push notifications.",
+    "Developed robust PDF generation capabilities for legal documents and invoices.",
+    "Created complex interactive calendars and analytical dashboards."
   ],
 
   github: "",
