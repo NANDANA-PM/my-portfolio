@@ -6,16 +6,26 @@ export default function Footer() {
     <footer className="border-t border-border bg-background py-12">
       <div className="container mx-auto max-w-6xl px-6 flex flex-col items-center">
         <div className="flex gap-6 mb-8">
-          <a href="https://github.com/NANDANA-PM" target="_blank" rel="noreferrer" className="rounded-full bg-muted p-3 text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all">
+          <a
+            href="https://github.com/NANDANA-PM"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full bg-muted p-3 text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all"
+          >
             <Github className="h-5 w-5" />
             <span className="sr-only">GitHub</span>
           </a>
-          <a href="mailto:nandanaa642@gmail.com" className="rounded-full bg-muted p-3 text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nandanaa642@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full bg-muted p-3 text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-all"
+          >
             <Mail className="h-5 w-5" />
             <span className="sr-only">Email</span>
           </a>
         </div>
-        
+
         <p className="text-xl font-bold tracking-tight text-foreground mb-2">
           Nandana<span className="text-primary">.dev</span>
         </p>

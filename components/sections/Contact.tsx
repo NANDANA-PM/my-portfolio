@@ -13,8 +13,8 @@ export default function Contact() {
         </div>
 
         <p className="mb-12 text-lg text-muted-foreground">
-          I&apos;m always open to discussing new projects, creative ideas, 
-          or opportunities to be part of your visions.
+          I&apos;m always open to discussing new projects, creative ideas, or
+          opportunities to be part of your visions.
         </p>
 
         <div className="grid gap-6 md:grid-cols-3 mb-12">
@@ -23,7 +23,12 @@ export default function Contact() {
               <Mail className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">Email</h3>
-            <a href="mailto:nandanaa642@gmail.com" className="text-muted-foreground hover:text-primary transition-colors text-sm break-all">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=nandanaa642@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors text-sm break-all"
+            >
               nandanaa642@gmail.com
             </a>
           </div>
@@ -33,7 +38,10 @@ export default function Contact() {
               <Phone className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">Phone</h3>
-            <a href="tel:+917994927982" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+            <a
+              href="tel:+917994927982"
+              className="text-muted-foreground hover:text-primary transition-colors text-sm"
+            >
               +91 7994927982
             </a>
           </div>
@@ -48,8 +56,11 @@ export default function Contact() {
             </p>
           </div>
         </div>
-        
-        <Button href="mailto:nandanaa642@gmail.com" variant="primary">
+
+        <Button
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=nandanaa642@gmail.com"
+          variant="primary"
+        >
           Send Me an Email
         </Button>
       </div>

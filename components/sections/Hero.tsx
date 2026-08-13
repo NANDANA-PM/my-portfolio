@@ -10,24 +10,24 @@ export default function Hero() {
     <section className="py-24 md:py-32 lg:py-40 relative overflow-hidden">
       {/* Subtle background decoration */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-background to-background" />
-      
+
       <Container>
         <div className="flex flex-col-reverse items-center gap-16 lg:flex-row lg:justify-between">
           {/* Left Side */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-sm font-medium mb-6">
+            {/* <div className="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-sm font-medium mb-6">
               <span className="flex h-2 w-2 rounded-full bg-green-500 mr-2"></span>
               Available for new opportunities
-            </div>
+            </div> */}
 
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
-              Hi, I&apos;m {personal.name.split(' ')[0]}
+              Hi, I&apos;m {personal.name.split(" ")[0]}
               <br />
               <span className="text-muted-foreground">{personal.role}</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground mx-auto lg:mx-0">
-               {personal.about}
+              {personal.about}
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4 justify-center lg:justify-start">
@@ -35,27 +35,28 @@ export default function Hero() {
                 View My Work
               </Button>
 
-              <Button
-                href={personal.resume}
-                variant="outline"
-              >
+              <Button href={personal.resume} variant="outline">
                 Download Resume
               </Button>
             </div>
-            
+
             <div className="mt-10 flex items-center gap-6 justify-center lg:justify-start">
-              <span className="text-sm font-medium text-muted-foreground">Connect with me:</span>
-              <a 
-                href="https://github.com/NANDANA-PM" 
-                target="_blank" 
+              <span className="text-sm font-medium text-muted-foreground">
+                Connect with me:
+              </span>
+              <a
+                href="https://github.com/NANDANA-PM"
+                target="_blank"
                 rel="noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="GitHub Profile"
               >
                 <Github className="h-6 w-6" />
               </a>
-              <a 
-                href="mailto:nandanapm777@gmail.com" 
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=nandanaa642@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email Me"
               >
